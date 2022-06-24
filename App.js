@@ -45,11 +45,6 @@ export default function App() {
         <Stack.Screen name='ImageScreen' component={ImageScreen}
           options={{
 
-            headerRight: () => 
-              <TouchableHighlight onPress={() => setOpenSearch(!openSearch)}>
-                <Text style={style.search} >{openSearch ? 'Close' : 'Search'}</Text>
-              </TouchableHighlight>,
-
             headerTintColor: '#cecece',
 
             headerTitleStyle:{
